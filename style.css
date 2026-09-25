@@ -97,6 +97,8 @@ header h3 {
 
 footer {
     position: fixed;
+    left:0;
+    right:0;
     bottom: 0;
     color: #e7e7e9c4;
     text-align: center;
