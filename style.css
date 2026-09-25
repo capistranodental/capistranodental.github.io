@@ -1,27 +1,55 @@
 a {
-    color: #ebedf8e5;
+    color: #e7e7e9c4;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ebedf8e5;
+    color: #e7e7e9c4;
     text-decoration: underline;
 }
 
 a:visited {
-    color: #ebedf8e5;
+    color: #e7e7e9c4;
     text-decoration: none;
 }
 
-#return a{
+#return a {
     color: #1a1a1beb;
+}
+
+#landing {
+    color: #1a1a1beb;
+    background-color: #e7e7e938;
+    backdrop-filter: blur(1px);
+    border-radius: 40px;
+    margin: 15% 10% 20% 10%;
+    padding: 5%;
+    text-align: center;
+}
+
+#landing h2 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    font-size: 1.4em;
+    /* font-style: italic; */
+    line-height: 1.2em;
+}
+
+#landing h3 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    font-size: 1.2em;
+    /* font-style: italic; */
+    line-height: 1.2em;
 }
 
 header {
     color: #1a1a1beb;
-    background-color: #ebedf83d;
+    background-color: #e7e7e9c4;
     border-radius: 40px;
-    margin: 10%;
+    margin: 10% 10% 20% 10%;
     padding: 5%;
     text-align: center;
 }
@@ -68,10 +96,12 @@ header h3 {
 /* FOOTER */
 
 footer {
-    color: #ebedf8e5;
+    position: fixed;
+    bottom: 0;
+    color: #e7e7e9c4;
     text-align: center;
     font-size: 0.6em;
-    margin: -10px 20px;
+    margin: 10px;
     font-family: "Playfair Display SC", serif;
     font-weight: 400;
 }
